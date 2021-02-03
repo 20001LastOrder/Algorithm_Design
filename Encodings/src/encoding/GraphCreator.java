@@ -16,6 +16,14 @@ public class GraphCreator {
 	 */
 	Graph tree;
 	
+	/**
+	 * Create a graph with tree structure based on the encoding "1" for right child and "0" for lect child
+	 * @param name
+	 * @param table
+	 * @param x
+	 * @param dy
+	 * @param horiRatio
+	 */
 	public GraphCreator(String name, Hashtable<String, String> table, double x, double dy, double horiRatio) {
 		tree = new SingleGraph(name);
 		//add source node
